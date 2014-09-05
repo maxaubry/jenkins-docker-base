@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM debian:wheezy
 MAINTAINER Floran Brutel <f.brutel@hexanet.fr>
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 
 # curl an wget
-RUN apt-get install -y curl wget
+RUN apt-get install -y curl wget telnet
 
 # JAVA
 RUN apt-get install -y openjdk-7-jre-headless
