@@ -1,4 +1,4 @@
-FROM debian:7.3
+FROM ubuntu:trusty
 MAINTAINER Floran Brutel <f.brutel@hexanet.fr>
 
 ENV DEBIAN_FRONTEND noninteractive
