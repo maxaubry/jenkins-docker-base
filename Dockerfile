@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:jessie
 MAINTAINER Floran Brutel <f.brutel@hexanet.fr>
 
 ENV DEBIAN_FRONTEND noninteractive
